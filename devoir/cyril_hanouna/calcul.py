@@ -12,7 +12,7 @@ def calcul_automatic(automatic_annotations, manual_annotations):
 
     f_score = 2 * (precision * rappel) / (precision + rappel) if precision + rappel != 0 else 0
 
-    return precision, rappel, f1_score
+    return precision, rappel, f_score
 
 # Exemple d'utilisation
 automatic_file = 'nom_fichier_resultat.txt'
